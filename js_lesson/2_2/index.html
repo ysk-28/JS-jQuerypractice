@@ -5,39 +5,7 @@
   <title>クリックイベントと切り替え</title>
   <link rel="stylesheet" type="text/css" href="base.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
-  <script>
-    $(function(){
-      $("#button1").hover(
-        function(){
-        $("#button1").css("background-color","red");
-      },
-      function(){
-        $("#button1").css("background-color","#fdd");    
-       })
-    });
 
-    $(function(){
-      $("#button2").hover(
-        function(){
-        $("#button2").css("background-color","red");
-      },
-      function(){
-        $("#button2").css("background-color","#fdd");    
-       })
-    });
-
-    $(function(){
-      $("#button3").hover(
-        function(){
-        $("#button3").css("background-color","red");
-      },
-      function(){
-        $("#button3").css("background-color","#fdd");    
-       })
-    });
- 
-
-  </script>
 </head>
 <body>
   <div id="wrapper">
@@ -51,5 +19,32 @@
       <p>button3</p>
     </div><!-- button3 -->
   </div><!-- wrapper -->
+
+<script>
+  $("#button1").hover(
+    function(){
+    $("#button1").css("background-color","red");},
+    function(){
+    $("#button1").css("background-color","#fdd");}
+  );
+
+
+  $("#button2").hover(
+    function(){
+    $("#button2").css("background-color","red");},
+    function(){
+    $("#button2").css("background-color","#fdd");}
+  );
+
+  $("#button3").hover(
+    function(){
+    $("#button3").css("background-color","red");},
+    function(){
+    $("#button3").css("background-color","#fdd");}
+  );
+
+
+</script>
 </body>
+
 </html>
